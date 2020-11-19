@@ -1,0 +1,18 @@
+<div class="row" fxFlex="70">
+    
+    <div class="col-md-6 col-sm-12">
+     <app-list (sendPersonneToCv)="selectPersonne($event)"></app-list>
+    </div>
+
+    <div class="col-md-6 col-sm-12">
+     <app-detail [personne]="selectedPersonne"></app-detail>
+    </div>
+
+  </div>
+  
+  <footer>
+    <div class="row" fxFlex="30">
+      <app-embauche></app-embauche>
+    </div>
+  </footer>
+

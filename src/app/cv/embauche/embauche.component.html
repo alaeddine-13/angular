@@ -1,0 +1,13 @@
+
+
+<div class="w3-container">
+    <h5 >List des cvs sélectionnés pour embauche</h5>
+    <div *ngFor="let embauche of embauches;"  >
+        
+        <div>
+            <div class="column">
+                <app-item [personne]="embauche"></app-item>
+            </div>
+        </div>
+    </div>
+</div>
